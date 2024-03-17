@@ -18,7 +18,7 @@ Complete end-to-end Azure data engineer project
 In Azure Cloud, there are many ways to import data depending upon the source of data, size of data, specific service you prefer to use, existing infrastructure, specific requirements, and preferences.
 
 
-IMPORTING DATA FROM SQL 
+IMPORTING DATA FROM SQL SQL 
 
 
 
