@@ -25,8 +25,12 @@ DATABASE NAME: sale
 right click >Table Data Import Wizard >file path>next>next>finish(make sure to put it in (int)
 or  Expand Databases, right-click a database (test in the example below), point to Tasks, and click Import Flat File above Import Data.
 
-SELECT * FROM sale.pizza_sales;
-This data needs to be transferred to cloud space. 
+SELECT * FROM sale.pizza_sales;(SelectPizzasale.png)
+"The data needs to be transferred to cloud storage."
+Now we need to open azure cloud 
+**signup Azure account First **
+https://azure.microsoft.com/en-us/free/cloud-services/search/?ef_id=_k_Cj0KCQjwqdqvBhCPARIsANrmZhPaFblMgmBumsootUo-hhTKu2VrwcztAWwHpFkGJKungy3xGAR9eloaAr3TEALw_wcB_k_&OCID=AIDcmm5edswduu_SEM__k_Cj0KCQjwqdqvBhCPARIsANrmZhPaFblMgmBumsootUo-hhTKu2VrwcztAWwHpFkGJKungy3xGAR9eloaAr3TEALw_wcB_k_&gad_source=1&gclid=Cj0KCQjwqdqvBhCPARIsANrmZhPaFblMgmBumsootUo-hhTKu2VrwcztAWwHpFkGJKungy3xGAR9eloaAr3TEALw_wcB
+Sign up Start Free> You can use Microsoft email to log in>next >You have to insert your card number address and every detail asked by Microsoft Azure then you will be able to log in once confirmed by Microsoft Azure. 
 
 
 
