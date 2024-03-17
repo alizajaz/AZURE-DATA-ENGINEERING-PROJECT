@@ -18,7 +18,12 @@ Complete end-to-end Azure data engineer project
 In Azure Cloud, there are many ways to import data depending upon the source of data, size of data, specific service you prefer to use, existing infrastructure, specific requirements, and preferences.
 
 
-IMPORTING DATA FROM SQL SQL 
+CREATE DATABASE IN My SQL WorkBench
+DATABASE NAME: sale
+right click >Table Data Import Wizard >file path>next>next>finish(make sure to put it in (int)
+or  Expand Databases, right-click a database (test in the example below), point to Tasks, and click Import Flat File above Import Data.
+
+
 
 
 
