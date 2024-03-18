@@ -33,7 +33,9 @@ https://azure.microsoft.com/en-us/free/cloud-services/search/?ef_id=_k_Cj0KCQjwq
 Sign up Start Free> You can use Microsoft email to log in>next >You have to insert your card number address and every detail asked by Microsoft Azure then you will be able to log in once confirmed by Microsoft Azure. 
 
 *****************************************************************************************************************************************************************
-Create Storage Account
+**Create Storage Account**
+#######################################################################################################################################################################################################
+
 Go to the Search button in  https://portal.azure.com/#home type storage >click on storage account>click create button 
 Create a storage account
 https://github.com/alizajaz/AZURE-DATA-ENGINEERING-PROJECT/blob/main/AzureStoragewithresourcesstoragename.png
