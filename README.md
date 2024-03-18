@@ -38,6 +38,8 @@ Go to the Search button in  https://portal.azure.com/#home type storage >click o
 Create a storage account
 https://github.com/alizajaz/AZURE-DATA-ENGINEERING-PROJECT/blob/main/AzureStoragewithresourcesstoragename.png
 add resources group if you do not have one>storage account name >Review+Create>deployment process will happen >click on> go to resource>you can view an overview of storage >click on container >click on +> create the container>add name and you can give access to private, public>click create  and once a container is successfully created upload a file.>click on file >upload a file >click on file name>edit>preview
+https://github.com/alizajaz/AZURE-DATA-ENGINEERING-PROJECT/blob/main/Azurestoragecontainerfileupload1.png 
+
 
 
 
