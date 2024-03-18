@@ -39,15 +39,25 @@ There are 4 storage services>blob, file, table, and queue.
 Based on requirements we used this storage service.
 ************************************************************************************************************************************************************************
 **blob storage**>Requiremnent where data is unstructured format such as video file, audio file, txt file, doc
-**File Storage**(Shared location)> E.g. many teams working together on the same project but from different locations that can be from Nepal, India, USA, etc. You want to share location files where everyone can access upload, and make changes.
+**File Storage**(Shared location)> E.g. many teams working together on the same project but from different locations such as Nepal, India, USA, etc. You want to share location files where everyone can access upload, and make changes.
 **Table Storage** :Structure Data 
 **Queue Storage** Put files in the queue and process them one by one. That kind of scenario uses Queue storage.
 ***********************************************************************************************************************************************************************
 
 **Account type**
-Blob
+**Blob
 General purpose v1
-General purpose v2(Azure recommendation)
+General purpose v2(Azure recommendation)**
+
+***************************************************************************************************************************************************************************
+
+**Access Tier**
+Hot tier: access data frequently, we store files in the hot tier
+Cold Tier: Infrequently
+Archive Tier: Rarely
+***************************************************************************************************************************************************************************
+
+
 
 
 Go to the Search button in  https://portal.azure.com/#home type storage >click on storage account>click create button 
