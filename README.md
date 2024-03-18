@@ -52,9 +52,11 @@ General purpose v2(Azure recommendation)**
 ***************************************************************************************************************************************************************************
 
 **Access Tier**
-Hot tier: access data frequently, we store files in the hot tier
-Cold Tier: Infrequently
-Archive Tier: Rarely
+**Hot tier:** access data frequently, we store files in the hot tier.
+
+**Cold Tier**: Infrequently
+
+**Archive Tier:** Rarely
 ***************************************************************************************************************************************************************************
 
 
