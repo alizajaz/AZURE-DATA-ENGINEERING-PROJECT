@@ -21,6 +21,8 @@ Requirement
 Step 1 
 Open Azure account> I have a storage account. Under Data Storage>There is the container.> (+Container)Create one new container>open data factory studio 
 Create Azure data factory using Azure portal >create a pipeline > Since data is available in SQL server we have to move to Azure.
+
+
  1.
 **create an integration runtime**
 
