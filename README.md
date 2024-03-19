@@ -11,11 +11,7 @@ Requirement
 - how to create an Azure data factory 
 - how to set integration run time
 - how to create an Azure data factory pipeline
-- how to mount cloud to Databricks
-- Databricks 
-- Pyspark for data cleaning
-- Spark SQL for analysis
-- POWER BI for visualization
+
 
 *************************************************************************************************************************************************************************************************************
 Step 1 
