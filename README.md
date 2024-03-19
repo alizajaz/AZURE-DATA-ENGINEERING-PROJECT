@@ -23,8 +23,7 @@ Open Azure account> I have a storage account. Under Data Storage>There is the co
 Create Azure data factory using Azure portal >create a pipeline > Since data is available in SQL server we have to move to Azure.
 
 
- 1.
-**create an integration runtime**
+1. Create an integration runtime
 
 manage >integration runtimes>new>azure self hosted>self hosted >it will give you key >choose manual and download 
 https://www.microsoft.com/en-us/download/details.aspx?id=39717
