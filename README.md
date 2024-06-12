@@ -39,6 +39,26 @@ if you have to schedule trigger >add trigger>new edit>schedule
 
 
 
+note:
+
+To migrate data from an on-premises SQL database to an Azure Storage Account, start by creating an Azure Storage Account. Sign in to the Azure portal, navigate to "Storage accounts," and click "Add." Provide the necessary details such as subscription, resource group, storage account name, region, and performance options, then click "Review + create" and "Create."
+
+Next, create an Azure Data Factory. In the Azure portal, search for "Data factories" and click "Add." Fill in the required fields including subscription, resource group, and Data Factory name, select the version, and region, then click "Review + create" and "Create." After deployment, go to the Data Factory resource.
+
+Set up the Integration Runtime to connect to your on-premises data. In the Data Factory portal, under "Manage," select "Integration Runtimes," click "New," choose "Self-hosted" and follow the wizard to download and install the Integration Runtime on a local machine. Register the runtime and copy the authentication key.
+
+Create a Data Factory pipeline to move the data. In the Data Factory portal, go to "Author & Monitor" and under "Author," click on "Pipelines" and then "New pipeline." Add a new copy activity. In the "Source" tab, configure the on-premises SQL database by creating a linked service using the Integration Runtime. In the "Sink" tab, configure the Azure Storage Account by creating a linked service and specifying the destination container. Set up mappings if necessary.
+
+Finally, schedule the pipeline. Under "Triggers," click "New/Edit," and create a new trigger. Set the desired schedule, activate the trigger, and attach it to the pipeline. Save and publish all changes. The pipeline will now run automatically according to the defined schedule, transferring data from the on-premises SQL database to the Azure Storage Account.
+
+
+
+
+
+
+
+
+
 
 
 
